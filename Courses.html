@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49b0e067bb.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt=""></a>
+
+            <div class="nav-links" id="closes">
+
+                <ul>
+                    <li>
+                        <div class="close" onclick="closeMenu()"></div>
+                    </li>
+
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Blog.html">Blog</a></li>
+                    <li><a href="./Courses.html">Course</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <li>
+                <div class="open" id="open" onclick="openMenu()"></div>
+            </li>
+        </nav>
+        <h1>Courses</h1>
+    </section>
+
+    <!-- -----------Courses -->
+    <section class="course">
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>MAMMA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum sequi quas consectetur
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum
+                    nulla quos voluptas debitis maiores accusantium.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>BABA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum sequi quas consectetur
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum
+                    nulla quos voluptas debitis maiores accusantium.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>ARFA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum sequi quas consectetur
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum
+                    nulla quos voluptas debitis maiores accusantium.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ------------------Facilities---------- -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, quis.</p>
+
+        <div class="row">
+            <div class="facility-col">
+                <img src="./eduford_img/cafeteria.png">
+                <h3>Cafeteria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum sequi quas consectetur
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum
+                    nulla quos voluptas debitis maiores accusantium.</p>
+            </div>
+
+            <div class="facility-col">
+                <img src="./eduford_img/library.png">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum sequi quas consectetur
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum
+                    nulla quos voluptas debitis maiores accusantium.</p>
+            </div>
+
+            <div class="facility-col">
+
+                <img src="./eduford_img/basketball.png">
+                <h3>Basketball</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum sequi quas consectetur
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere ipsum
+                    nulla quos voluptas debitis maiores accusantium.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ------------------footer---------- -->
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quos <br> sed sapiente quia, nisi fuga
+            aut tempore? Ducimus, nisi fuga
+            aut tempore? Ducimus, exercitationem dignissimos.</p>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fab fa-twitter"></i>
+        <i class="fab fab fa-facebook-messenger"></i>
+        <i class="fab fab fab fa-instagram-square"></i>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- --------------JS------------- -->
+    <script>
+        var closes = document.getElementById("closes")
+        var open = document.getElementById("open")
+
+        function closeMenu() {
+            closes.style.right = "-150px"
+
+        }
+        function openMenu() {
+            closes.style.right = "0px"
+
+        }
+    </script>
+</body>
+
+</html>
